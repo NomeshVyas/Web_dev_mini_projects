@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+    display: flex;
+    justify-content: center;
+    height: 99vh;
+}
+
+main {
+    width: 75%;
+    height: 75vh; 
+    background-color: white;
+    margin-block: 25px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 82%;
+    margin: 2%;
+    padding: 1.25%;
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+    outline: 0;
+    font-family: sans-serif;
+}
+
+.submit {
+    width: 10%;
+    background-color: #583850;
+    color: white;
+    padding: 1.2%;
+    margin: 1.85%;
+    border: none;
+    box-shadow: 0px 0px 2px purple;
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 96%;
+    margin: 1% 2%;
+    margin-top: 0;
+    padding: 1.25%;
+    background-color: rgb(85, 83, 83);
+    color: aliceblue;
+    box-shadow: 0px 0px 2px gray;
+    position: relative;
+    padding-right: 40px;
+    user-select: none;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+span {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: larger;
+}
+
+span i {
+    padding: 0.2em;
+}
+
+.done {
+    background-color: lightgray;
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #ADD8E6;
+    width: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+::-webkit-scrollbar{
+    border: 2px;  
+    width: 10px;    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #583850;
+     border: 1px ;
+     border-radius: 20px;   
+}
