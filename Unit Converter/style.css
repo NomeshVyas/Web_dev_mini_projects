@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #581845;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-block: 10px;
+    font-size: 3em;
+    color: white;
+    text-decoration: underline;
+}
+
+.container {
+    /* background-color: 	#6F4E37; */
+    /* background-color: #483C32; */
+    background: linear-gradient(to right, #E975A8, #726CF8);
+    /* background : linear-gradient(to right, #FF1D58, #0049B7) ; */
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    padding-block: 50px;
+    border-radius: 10px;
+    display: flex;
+    gap: 40%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    /* display: inline-block; */
+    /* background-color: aqua; */
+    width: 30%;
+    text-align: center;
+    padding-inline: 2.5%;
+    /* background-color: aqua; */
+    /* margin-left: 70px; */
+    
+}
+
+.label {
+    font-size: 2em;
+
+}
+
+.input {
+    width: 90%;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 1.25em;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: 	#7C3030;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        /* padding-block: auto; */
+        justify-content: center;
+        align-items: center;
+        padding-block: 50px;
+        /* background: linear-gradient(to bottom, #E975A8, #726CF8); */
+        /* padding-left: 0; */
+        
+    }
+    .input-box {
+        width: 100%;
+    }
+    .input{
+        margin-bottom: 20px;
+        
+    }
+}
+@media screen and (max-width: 360px) {
+    .input{
+        padding: 0.5em;
+        font-size: 0.75em;
+    }
+}
