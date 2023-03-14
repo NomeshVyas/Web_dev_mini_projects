@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(https://images3.alphacoders.com/588/588565.jpg);
+    background: url(https://images2.alphacoders.com/598/598673.jpg); */
+    background: url(https://img.freepik.com/free-vector/vector-abstract-musical-background-vector-illustration_206725-626.jpg?w=2000);
+    background-size: cover;
+    position: relative;
+}
+.bgPhoto img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+.container{
+    background-color: #141414;
+    padding: 25px;
+    width: 768px;
+    border-radius: 25px;
+    color: #eee;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.175rem;
+}
+.container header .logo{
+    font-size: 1.35rem;
+    display: flex;
+    user-select: none;
+    position: relative;
+}
+.container header .logo img{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-right: 5px;
+    border: 2px solid goldenrod;
+}
+.container header .logo .creator{
+    position: absolute;
+    font-size: 0.5rem;
+    bottom: 0px;
+    letter-spacing: 0.75px;
+    color: gold;
+    /* text-decoration: underline solid goldenrod; */
+    left: 2.65rem;
+}
+.container .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .column input{
+    margin-left: 10px;
+}
+header .volume .range{
+    height: 5px;
+}
+header .show-key input{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    border-radius: 15px;
+    background-color: #4b4b4b;
+    position: relative;
+}
+header .show-key input::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+    border-radius: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    transition: all 0.3s ease;
+}
+header .show-key input:checked::before{
+    left: 35px;
+    background-color: #fff;
+}
+.container .piano-keys{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-inline: 10px;
+    margin-top: 40px;
+    color: #a2a2a2;
+
+}
+.piano-keys .key{
+    position: relative;
+    user-select: none;
+    cursor: pointer; 
+}
+.piano-keys span{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+.piano-keys .key.hide span{
+    display: none;
+}
+ 
+.piano-keys .black{
+    width: 44px;
+    height: 140px;
+    border-radius: 0 0 7px 7px;
+    border-top: 1px solid black;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    background: linear-gradient(#333, #000);
+    font-size: 1.1rem;
+}
+.piano-keys .black.active{
+    box-shadow: inset -5px 5px 20px rgba(255, 251, 251, 0.1);
+    background: linear-gradient(to bottom, #000, #434343);
+}
+.piano-keys .white{
+    font-size: 1.25rem;
+    width: 70px;
+    height: 215px;
+    border-radius: 7px;
+    background: linear-gradient(#fff 96%, #eee 4%);
+    border: 1px solid black;
+}
+.piano-keys .white.active{
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        background: none;
+        padding: 0;
+        /* width: 105vw; */
+        /* height: 100vh; */
+        /* width: 100vh; */
+        /* height: 100vw; */
+
+        /* display: block; */
+        /* width: 100vw; */
+        /* height: 100vh; */
+    }
+    .container{
+        width: 105vh;
+        height: 100vw;
+        border-radius: 0;
+        border: 5vw solid #141414;
+        border-top: none;
+        border-bottom: none;
+        /* transform: rotate(90deg); */
+    }
+    .piano-keys .white{
+        width: 9vh;
+        height: 62.5vw;
+        /* margin: -4vw 0 -4vw 0; */
+        
+    }
+    .piano-keys .black{
+        width: 7vh;
+        height: 40vw;
+        margin: 0 -3.5vh 0 -3.5vh;
+        
+    }
+}
+
+
+
+
+

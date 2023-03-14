@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: 'Luckiest Guy', cursive;
+}
+body{
+    background-color: #F273E6;
+}
+nav{
+    display: flex; justify-content: space-between; background-color: #a8218d; color: white; padding: 10px; padding-left: 20px;
+}
+nav h1{
+    margin-right: 25px; font-size: 2.75rem; font-weight: 100; text-shadow: 3px 3px 3px #F273E6;
+}
+nav ul{
+    list-style: none; display: flex;
+}
+
+nav ul li{
+    margin: 10px; margin-top: 10px;
+}
+nav ul li{
+    font-size: 1.5rem;
+}
+nav ul li a{
+    text-decoration: none; color: white; font-size: 1.5rem;
+}
+nav ul .current{
+    background-color: pink; padding: 10px; border-radius: 10px; color: black;
+}
+nav .fa-bars{
+    display: none; margin-top: 7px;
+}
+.wrapper{
+    height: 80vh; display: flex; flex-wrap: wrap;
+    background-color: #F273E6;
+}
+.qus{
+    width: 75%; height: 100%; border: 30px solid #F273E6; display: flex; justify-content: center;
+    align-items: center; border-radius: 100px; background-color: pink;
+}
+.qus h1{
+    font-size: 10rem; display: inline-block; font-weight: 100; padding-inline: 1.1rem;
+}
+#num1{
+    color: #00e1ff;
+}
+#num2{
+    color: #773bbd;
+}
+.ans{
+    width: 25%; height: 80vh; background-color: #F273E6;
+}
+.ans h1{
+    height: 25vh; display: flex; justify-content: center; align-items: center; color: white; border-radius: 25px; font-size: 4.75rem;
+    text-align: center; margin: 1.1rem;
+}
+#wronge-box{
+    display: none; width: 75%; height: 100%; border: 30px solid #F273E6; text-align: center; border-radius: 100px; background-color: white;
+}
+#wronge{
+    font-size: 3.5rem; font-weight: 100; padding-inline: 11rem; padding-top: 10rem; color: red; animation: jj .8s infinite ease-in-out;
+}
+#tryAgain{
+    margin-top: 4rem; padding: 0.5rem; font-size: 1.15rem; border-radius: 20px; outline: none; 
+    color: white; cursor: pointer; background-color: lawngreen; border: 2px solid lawngreen;
+}
+#tryAgain:hover{
+    color: lawngreen; background-color: white;
+}
+#opction1{
+    border: 25px solid #00e1ff; background-color: #00e1ff; cursor: pointer;
+}
+#opction1:hover{
+    color: #00e1ff; background-color: white; border: 25px solid white;
+}
+#opction2{
+    cursor: pointer; border: 25px solid #ff218e; background-color: #ff218e;
+}
+#opction2:hover{
+    color: #ff218e; background-color: white; border: 25px solid white;
+}
+#opction3{
+    cursor: pointer; border: 25px solid #99c639; background-color: #99c639;
+}
+#opction3:hover{
+    color: #99c639; background-color: white; border: 25px solid white;
+}
+@keyframes jj {
+    0%{ transform: scale(1); }
+    50%{ transform: scale(1.5); }
+}
+@media screen and (max-width: 920px) {
+    nav{
+        display: block; position: relative;
+    }
+    nav h1{
+        font-size: 2.75rem;
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul.active{
+        display: block;
+    }
+    nav ul li{
+        background-color: rgb(223, 107, 223); text-align: center; padding: 0.25rem; border-radius: 15px;
+    }
+    nav ul .current{
+        background-color: pink; padding: 0px; border-radius: 10px;
+    } 
+    nav ul .current-li{
+        background-color: pink; border-radius: 10px; color: black;
+    }
+    nav .fa-bars{
+        display: block; font-size: 1.75rem; padding-top: 5px; padding-right: 15px; position: absolute; right: 10px; top: 15px;
+    }    
+    .wrapper{
+        height: 90vh; display: flex; flex-direction: column;
+    }
+    .qus{
+        height: 70%; width: 100%;
+    }
+    #wronge-box{
+        width: 100%; height: 70%; border-radius: 50px;
+    }    
+    #wronge{
+        font-size: 4rem; font-weight: 100; padding-inline: 1rem; padding-top: 5rem;
+    }
+    #tryAgain{
+        font-size: 2rem; margin-top: 7.5rem;
+    }
+    .qus h1{
+        font-size: 6.5rem;
+    }
+    .ans{
+        width: 100%; height: 30%; display: flex;
+    }
+    .ans h1{
+        width: 30vw;
+    }    
+}
+@media screen and (max-width: 530px) {
+    nav h1{
+        font-size: 2rem;
+    }
+    nav .fa-bars{
+        top: 5px;
+    }
+    .qus{
+        height: 40vh; border-radius: 50px;
+    }
+    #wronge-box{
+        width: 100%; height: 50vh; border-radius: 50px;
+    }    
+    #wronge{
+        font-size: 2rem; font-weight: 100; padding-inline: 1rem; padding-top: 5rem;
+    }
+    #tryAgain{
+        margin-top: 3.5rem; font-size: 1.2rem;
+    }
+    .qus h1{
+        font-size: 3rem; padding-inline: 0.25rem;    
+    }   
+    .ans{
+        display: flex; flex-direction: column; align-items: center;
+    }
+    .ans h1{
+        width: 90vw; height: 20vh; font-size: 2rem; margin: 0.5rem;
+    }
+}
