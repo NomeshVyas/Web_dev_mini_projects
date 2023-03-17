@@ -57,6 +57,16 @@ Number.isInteger(), Arithmetic Operators & more...
 https://stately-squirrel-983e93.netlify.app/ 
 
 
+### Wall_Clock
+here I created a clock project via HTML, CSS &amp; JavaScript to enhance web-dev Skills &amp; JS concepts.  
+
+#### Major JS concepts
+new Date(), getSeconds(), getMinutes(), getHours() & more...
+
+##### Netlify Link
+https://effulgent-croissant-301fa3.netlify.app/
+
+
 
 ### 6. Calculator
 Here I created a Calculator via HTML, CSS &amp; JavaScript to improve my Web-Dev skills &amp; JS concepts.
