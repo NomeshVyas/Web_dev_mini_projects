@@ -36,7 +36,18 @@ https://frabjous-treacle-b2eacb.netlify.app/
  
 
 
-### 4. To Do List
+### 4. Stopwatch
+here I created a Stopwatch website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
+
+#### Major JS Concepts
+setInterval(), clearInterval() & more...
+
+##### here u can see this project (Demo Link)
+https://shimmering-hummingbird-7632a3.netlify.app/
+
+
+
+### 5. To Do List
 here I created a To Do List website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
@@ -47,7 +58,7 @@ https://nimble-basbousa-4a5e1b.netlify.app/
 
 
 
-### 5. Unit Converter
+### 6. Unit Converter
 here I created a Unit Converter website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
@@ -57,7 +68,8 @@ Number.isInteger(), Arithmetic Operators & more...
 https://stately-squirrel-983e93.netlify.app/ 
 
 
-### Wall_Clock
+
+### 7. Wall_Clock
 here I created a clock project via HTML, CSS &amp; JavaScript to enhance web-dev Skills &amp; JS concepts.  
 
 #### Major JS concepts
@@ -68,7 +80,7 @@ https://effulgent-croissant-301fa3.netlify.app/
 
 
 
-### 6. Calculator
+### 8. Calculator
 Here I created a Calculator via HTML, CSS &amp; JavaScript to improve my Web-Dev skills &amp; JS concepts.
 
 #### Major JS Concepts
