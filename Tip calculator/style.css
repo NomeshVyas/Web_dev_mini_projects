@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+    height: 100vh;
+    /* background-color: powderblue; */
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 40%;
+    background-color: white;
+    /* border: 3px solid lightgray; */
+    box-shadow: 0px 0px 7px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+h1{
+    width: 80%;
+    margin: 0.75rem 10%;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 0.25rem;
+    text-align: center;    
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* margin-inline: auto; */
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid lightgray;
+}
+
+label{
+    display: block;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+p{
+    color: olive;
+    /* background-color: pink; */
+    display: inline-block;
+    padding-block: 0.25rem;
+    font-size: 1.5rem;
+    border: 2px solid gray;
+    width: 15%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    margin-top: 0;
+    border: 2px solid gray;
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    font-size: 1.5rem;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#quality{
+    width: 96%;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    border: 2px solid gray;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 1rem;
+}
+#continue{
+    width: fit-content;
+    /* margin-inline: 35%; */
+    margin-block: 1rem;
+    padding-block: 0.45rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    /* background-color: #41a8dd; */
+    background-color: lawngreen;
+}
+
+#tip-amount{
+    visibility: hidden;
+    min-width: 300px;
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 50px;
+    padding: 0.35rem;
+    font-size: 1.45rem;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+#tip-amount.show{
+    visibility: visible;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    0%{
+        bottom: 0;
+        opacity: 0;     
+    }
+    100%{
+        bottom: 50px;
+        opacity: 1;     
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 95%;
+    }
+    p{
+        font-size: 0.75rem;
+        
+    }
+    input{
+        font-size: .75rem;
+        
+    }
+    #quality{
+        font-size: 0.75rem;
+        padding: 0.25rem;
+    
+    }
+    h1{
+        font-size: 1.65rem;
+    }
+}
+
+
+
+
+
+
+
+
