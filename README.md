@@ -15,7 +15,7 @@ https://dapper-lamington-95f827.netlify.app/
 
 
 ### 2. Piano 
-here I created a Piano website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
+here I created a Piano website via HTML, CSS and JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
 new Audio(), audio.play() & more...
@@ -26,7 +26,7 @@ https://incredible-sfogliatella-fb9292.netlify.app/
 
 
 ### 3. Sticky Notes
-here I created a Sticky Notes website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
+here I created a Sticky Notes website via HTML, CSS and JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
 createElement(), appendChild(), Creating Element via JavaScripts & more...
@@ -37,7 +37,7 @@ https://frabjous-treacle-b2eacb.netlify.app/
 
 
 ### 4. Stopwatch
-here I created a Stopwatch website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
+here I created a Stopwatch website via HTML, CSS and JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
 setInterval(), clearInterval() & more...
@@ -47,8 +47,19 @@ https://shimmering-hummingbird-7632a3.netlify.app/
 
 
 
-### 5. To Do List
-here I created a To Do List website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
+### 5. Tip Calculator
+here I created a Tip Calculator website via HTML, CSS and JavaScript to improve my Web-dev skills.
+
+#### Major JS Concepts
+typeof(), Number(), .className.replace() & more... 
+
+##### here u can see this project (Demo Link)
+https://tipcalculatorforclints.netlify.app/
+
+
+
+### 6. To Do List
+here I created a To Do List website via HTML, CSS and JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
 .innerHTML, EventListener('keyup') & more...
@@ -58,8 +69,8 @@ https://nimble-basbousa-4a5e1b.netlify.app/
 
 
 
-### 6. Unit Converter
-here I created a Unit Converter website via HTML, CSS &amp; JavaScript to improve my Web-dev skills.
+### 7. Unit Converter
+here I created a Unit Converter website via HTML, CSS and JavaScript to improve my Web-dev skills.
 
 #### Major JS Concepts
 Number.isInteger(), Arithmetic Operators & more...
@@ -69,8 +80,8 @@ https://stately-squirrel-983e93.netlify.app/
 
 
 
-### 7. Wall_Clock
-here I created a clock project via HTML, CSS &amp; JavaScript to enhance web-dev Skills &amp; JS concepts.  
+### 8. Wall_Clock
+here I created a clock project via HTML, CSS and JavaScript to enhance web-dev Skills &amp; JS concepts.  
 
 #### Major JS concepts
 new Date(), getSeconds(), getMinutes(), getHours() & more...
@@ -80,8 +91,8 @@ https://effulgent-croissant-301fa3.netlify.app/
 
 
 
-### 8. Calculator
-Here I created a Calculator via HTML, CSS &amp; JavaScript to improve my Web-Dev skills &amp; JS concepts.
+### 9. Calculator
+Here I created a Calculator via HTML, CSS and JavaScript to improve my Web-Dev skills &amp; JS concepts.
 
 #### Major JS Concepts
 arithmetic operators, if-else statements & more...
