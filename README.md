@@ -80,8 +80,19 @@ https://stately-squirrel-983e93.netlify.app/
 
 
 
-### 8. Wall_Clock
-here I created a clock project via HTML, CSS and JavaScript to enhance web-dev Skills &amp; JS concepts.  
+### 8. Unsplash API Demo
+here I created a Unit Converter website via HTML, CSS and JavaScript to improve my Web-dev skills.
+
+#### Major JS Concepts
+fetch(API), .then(response), for loop & more...
+
+##### here u can see this project (Demo Link)
+https://unsplashapidemowebsite.netlify.app/
+
+
+
+### 9. Wall_Clock
+here I created a clock project via HTML, CSS and JavaScript to enhance web-dev Skills and JS concepts.  
 
 #### Major JS concepts
 new Date(), getSeconds(), getMinutes(), getHours() & more...
@@ -91,8 +102,8 @@ https://effulgent-croissant-301fa3.netlify.app/
 
 
 
-### 9. Calculator
-Here I created a Calculator via HTML, CSS and JavaScript to improve my Web-Dev skills &amp; JS concepts.
+### 10. Calculator
+Here I created a Calculator via HTML, CSS and JavaScript to improve my Web-Dev skills and JS concepts.
 
 #### Major JS Concepts
 arithmetic operators, if-else statements & more...
