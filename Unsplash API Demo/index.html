@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.freepnglogos.com/uploads/camera-logo-png/camera-logo-cliparts-31.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3577982b1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Unsplash API Demo</title>
+</head>
+<body>
+    <nav>
+        <h1><i class="fa-solid fa-camera-retro"></i> Unsplash API Demo</h1>
+        <div class="search-box"><input id="input" placeholder="search..." type="text"><i id="fa-magnifying-glass" class="fa-solid fa-magnifying-glass"></i></div>
+        <div id="nightmode" class="mode" onclick="changeDayNightMode()"><i class="fa-solid fa-cloud-moon"></i></div>
+        <div id="daymode" class="mode" onclick="changeDayNightMode()"><i class="fa-solid fa-sun"></i></div>
+    </nav>
+
+    <div id="grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
