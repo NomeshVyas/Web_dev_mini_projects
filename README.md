@@ -21,7 +21,7 @@ here I created a Piano website via HTML, CSS and JavaScript to improve my Web-de
 new Audio(), audio.play() & more...
 
 ##### here u can see this project (Demo Link)
-https://incredible-sfogliatella-fb9292.netlify.app/
+https://steinwayandsons7piano.netlify.app/
 
 
 
