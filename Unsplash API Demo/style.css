@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: black;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 5px;
+    border-bottom: 4px solid orange;
+    position: relative;
+}
+nav h1{
+    font-size: 2rem;
+    margin-block: 0.25rem;
+}
+nav h1 .fa-camera-retro{
+    color: orange;
+}
+nav .search-box{
+    width: 360px;
+    position: relative;
+    margin-block: 0.25rem;
+    margin-right: 5.5rem;
+}
+.search-box input{
+    font-size: 1.25rem;
+    padding: 0.25rem;
+    padding-inline: 1.75rem;
+    width: 100%;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid orange;
+}
+.search-box input:focus{
+    box-shadow: 0 0 5px orange;
+    border: 2px solid darkorange;
+}
+.search-box .fa-magnifying-glass{
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.35rem;
+    color: black;
+}
+.search-box .fa-magnifying-glass:hover{
+    color: darkorange;
+}
+nav .mode {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+}
+#nightmode{
+    display: none;
+    color: lightblue;
+    border: 2px solid lightblue;
+    padding: 5px;
+}
+#nightmode:hover{
+    color: rgb(123, 214, 245);
+    border: 2px solid rgb(123, 214, 245);
+}
+#daymode{
+    border: 2px solid rgb(252, 183, 55);
+    padding: 5px 9px;
+    color: rgb(252, 183, 55);
+}
+#daymode:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+#grid{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img{
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    margin-block: 7.5px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+@media screen and (max-width: 820px) {
+    nav{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    nav .search-box{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 460px) {
+    nav h1{
+        font-size: 1.1rem;
+    }
+    nav .search-box{
+        width: 260px;
+    }
+    nav .search-box input{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    nav .mode{
+        font-size: 1rem;
+    }
+    nav .search-box{
+        width: 205px;
+    }
+    nav .mode{
+        border-radius: 5px;
+    }
+    #daymode{
+        padding: 5px 7px;
+    }
+}
