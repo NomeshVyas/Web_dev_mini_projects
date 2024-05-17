@@ -2,12 +2,12 @@ const opction1 = document.getElementById('opction1');
 const opction2 = document.getElementById('opction2');
 const opction3 = document.getElementById('opction3');
 const qusBox = document.getElementsByClassName('qus')[0];
-var qus = document.getElementById('qus');
+const qus = document.getElementById('qus');
 const nav = document.getElementsByTagName('ul')[0];
 const navToggler = document.getElementsByClassName('fa-bars')[0];
-var wronge = document.getElementById('wronge');
-var wrongeBox = document.getElementById('wronge-box');
-var tryAgain = document.getElementById('tryAgain');
+const wronge = document.getElementById('wronge');
+const wrongeBox = document.getElementById('wronge-box');
+const tryAgain = document.getElementById('tryAgain');
 let answer = 0;
 
 function generateEq() {
@@ -17,19 +17,19 @@ function generateEq() {
     let dummyAns2 = Math.floor(Math.random()*30);
     let switchAnswers = [];
     var sign = document.getElementById('sign');
-    if(sign.innerHTML == `<i class="fa-solid fa-plus"></i>`){
+    if(sign.innerHTML == `<i class="fa-solid fa-plus" aria-hidden="true"></i>`){
         answer = num1+num2; 
     }
-    if(sign.innerHTML == `<i class="fa-solid fa-minus"></i>`){
+    if(sign.innerHTML == `<i class="fa-solid fa-minus" aria-hidden="true"></i>`){
         answer = num1-num2; 
     }
-    if(sign.innerHTML == `<i class="fa-solid fa-xmark"></i>`){
+    if(sign.innerHTML == `<i class="fa-solid fa-xmark" aria-hidden="true"></i>`){
         num1 = Math.floor(Math.random()*10);
         num2 = Math.floor(Math.random()*15);
         answer = num1*num2; 
         dummyAns1 = Math.floor(Math.random()*80);
     }
-    if(sign.innerHTML == `<i class="fa-solid fa-divide"></i>`){
+    if(sign.innerHTML == `<i class="fa-solid fa-divide" aria-hidden="true"></i>`){
         answer = num1/num2;
         if(!Number.isInteger(answer)){answer = answer.toFixed(2);}
         dummyAns1 = (Math.random()*7).toFixed(2); 
