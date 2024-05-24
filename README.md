@@ -10,7 +10,7 @@ here I created a Math arithmetic problem solving and practicing website for kids
 Math.random(), Math.floor(), Number.isInteger(), Array.push(), for-loop & more...  
 
 ##### here u can see this work (Demo Link)
-https://dapper-lamington-95f827.netlify.app/
+https://math4kid.netlify.app/
 
 
 
@@ -32,7 +32,7 @@ here I created a Sticky Notes website via HTML, CSS and JavaScript to improve my
 createElement(), appendChild(), Creating Element via JavaScripts & more...
 
 ##### here u can see this project (Demo Link)
-https://frabjous-treacle-b2eacb.netlify.app/
+https://stickynotes001.netlify.app/
  
 
 
@@ -43,7 +43,7 @@ here I created a Stopwatch website via HTML, CSS and JavaScript to improve my We
 setInterval(), clearInterval() & more...
 
 ##### here u can see this project (Demo Link)
-https://shimmering-hummingbird-7632a3.netlify.app/
+https://stopwatch-by-nomesh.netlify.app/
 
 
 
@@ -65,7 +65,7 @@ here I created a To Do List website via HTML, CSS and JavaScript to improve my W
 .innerHTML, EventListener('keyup') & more...
 
 ##### here u can see this project (Demo Link)
-https://nimble-basbousa-4a5e1b.netlify.app/
+https://to-do-by-nomesh.netlify.app/
 
 
 
